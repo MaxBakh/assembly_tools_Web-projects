@@ -1,0 +1,24 @@
+body {
+  background-color: lemonchiffon;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: salmon;
+  background: whitesmoke;
+  cursor: pointer;
+}
+
+#datecalc {
+  & button {
+    width: 145px;
+    height: 30px;
+  }
+}
+
+input {
+  border: 2px solid salmon;
+}

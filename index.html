@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- <script src="js/swipper.js"></script> -->
+    <script type="module" src="./js/hw1.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Homework</h1>
+
+    <h3>Push the button to change</h3>
+    <button id="swip">Data calculator / Timer</button>
+
+
+
+    <form id="datecalc" style="display: block;">
+        <h3>Calc data</h3>
+        <label>
+           <strong> First data</strong>
+           <input type="date" name="firstDate">
+        </label>
+        <label>
+            <strong> Second data</strong>
+            <input type="date" name="secondDate">
+         </label>
+
+         <button type="submit">Calc result</button>
+         <p id="dateCalc__result"></p>
+    </form>
+
+
+
+    <div id="timerDiv" style="display: none;">
+        <h3>Timer</h3>
+        <input type="text" name="time" id="time">
+        <button id="button">Запустить</button>
+        <div id="timer"></div>     
+    </div>
+
+
+</body>
+</html>
