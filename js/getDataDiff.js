@@ -1,6 +1,6 @@
 import {
     DateTime
-} from 'https://moment.github.io/luxon/es6/luxon.min.js';
+} from 'luxon';
 
 function getDataDiff(dateFrom, dateTo) {
 
